@@ -3,6 +3,7 @@
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/gp-b2g/" name="gp-b2g"/>
   <remote fetch="git://github.com/Droid2Fox/" name="droid2fox"/>
+  <remote fetch="git://github.com/Siragon/" name="siragon"/>
   <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
   <remote fetch="git://android.git.linaro.org/" name="linaro"/>
@@ -97,12 +98,10 @@
   <project name="device/qcom/common" path="device/qcom/common"/>
 
   <!-- msm7627a specific things -->
-  <project path="device/qcom/msm7627a" name="device_qcom_msm7627a" remote="gp-b2g" revision="master" />
-  <project path="device/geeksphone/keon" name="device-gp-keon" remote="b2g" revision="master" />
-  <project path="kernel" name="gp-keon-kernel" remote="gp-b2g" revision="master" />
+  <project path="device/qcom/msm7627a" name="android-device-msm7627a" remote="droid2fox" revision="master" />
+  <project path="kernel" name="kernel" remote="siragon" revision="seattle" />
   <project path="external/compat-wireless" name="external_compat-wireless" remote="gp-b2g" revision="master" />
   <project path="frameworks/base" name="frameworks_base" remote="gp-b2g" revision="master" />
-  <project path="hardware/ril" name="hardware_ril" remote="gp-b2g" revision="keon" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gp-b2g" revision="master" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="gp-b2g" revision="master" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="gp-b2g" revision="master" />
